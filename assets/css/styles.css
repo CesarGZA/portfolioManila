@@ -344,15 +344,7 @@ img{
         justify-content: center;
     }
 }
-/* .masked{
-    -webkit-mask-image: url(../img/blob.svg);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    -webkit-mask-size: 100%;
-    -webkit-mask-position-x: 10px;
-    -webkit-mask-position-y: -20px;
-    background-color: var(--first-color);
-} */
+
 .profilefoto{
     max-width: 15.5rem;
     border-radius: 10px;
