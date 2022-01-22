@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Responsive Portfolio Website</title>
 </head>
@@ -73,7 +74,7 @@
                         </a>
                     </div>
                     <div class="home__img">
-                        <img src="https://raw.githubusercontent.com/CesarGZA/portfolioManila/main/assets/img/image20.jpg"  class="profilefoto" alt="ProfileIMG">
+                        <img src="https://raw.githubusercontent.com/CesarGZA/portfolioManila/main/assets/img/image20.png"  class="profilefoto" alt="ProfileIMG">
                         
                     </div>
                     <div class="home__data">
@@ -546,7 +547,58 @@
                 </div>
             </div>
         </section>
+        <!-- ========================= PORTFOLIO ========================== -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- ======================= Portfolio 1 =====================0 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="" alt="portfolio1" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Desciption about my proyect...</p>
+                            <a href="" class="button button--flex button--small portfolio__button">demo
+                                <span class="iconify button__icon" data-icon="akar-icons:arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ======================= Portfolio 2 =====================0 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="" alt="portfolio1" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online Store</h3>
+                            <p class="portfolio__description">Desciption about my proyect...</p>
+                            <a href="" class="button button--flex button--small portfolio__button">demo
+                                <span class="iconify button__icon" data-icon="akar-icons:arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ======================= Portfolio 3 =====================0 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="" alt="portfolio1" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Desciption about my proyect...</p>
+                            <a href="" class="button button--flex button--small portfolio__button">demo
+                                <span class="iconify button__icon" data-icon="akar-icons:arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <span class="iconify swiper-portfolio-icon" data-icon="icons8:angle-right"></span>
+                </div>
+                <div class="swiper-button-prev">
+                    <span class="iconify swiper-portfolio-icon" data-icon="icons8:angle-left"></span>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
     </main>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 </body>
