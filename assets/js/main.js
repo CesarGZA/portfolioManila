@@ -104,7 +104,7 @@ modalCloses.forEach((modalC) => {
     mousewheel: true,
     keyboard: true,
   });
-
+ /*=================== SCROLL SECTION ACTIVE LINK ==================================== */
   const sections = document.querySelectorAll('section[id]')
   function scrollActive(){
       const scrollY = window.pageYOffset
@@ -126,14 +126,16 @@ modalCloses.forEach((modalC) => {
   /* ========================== CHANGE BACKGROUND HEADE =============== */
   function scrollHeader(){
         const nav = document.getElementById('header')
-        if(this.scrollY >= 80) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')    
+        if(this.scrollY >= 80) nav.classList.add('scroll-header'); 
+        else nav.classList.remove('scroll-header')    
   }
   window.addEventListener('scroll',scrollHeader)
 
   /* ======================== SHOW SCROLL TOP ======================== */
   function scrollUp(){
       const scrollUp = document.getElementById('scroll-up');
-      if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+      if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); 
+      else scrollUp.classList.remove('show-scroll')
   }
   window.addEventListener('scroll',scrollUp)
   /* ==================== DARK LIGHT THEME ===================== */
