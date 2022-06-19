@@ -3,7 +3,7 @@
 :root{
     --header-height: 3rem;
     /* Colores */
-    --hue-color:355;
+    --hue-color:250;
 
     /* Light mode */
     --first-color:hsl(var(--hue-color),69%,61%);
@@ -84,7 +84,7 @@ body.dark-theme{
 .sun__icon{
     content: url('https://api.iconify.design/akar-icons/sun.svg');
     color: #fff; 
-    background-color: #fff; 
+    
     height: 1.3rem;  
 }
 .nav__btns{
@@ -596,6 +596,7 @@ img{
 }
 /* ====== ACIVE MODAL =========== */
 .services__modal{
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -653,6 +654,7 @@ img{
 .active-modal{
     opacity: 1;
     visibility: visible;
+    
 }
 .close-modal{
     opacity: 0;
@@ -963,6 +965,7 @@ img{
  }
 
  @media screen and (min-width: 768px) {
+   
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -1055,9 +1058,7 @@ img{
     .services__content{
         padding: 6rem 0 2rem 2.5rem;
     }
-    .services__modal{
-        width: 450px;
-    }
+    
     .portfolio__img{
         width: 320px;
     }
@@ -1083,5 +1084,58 @@ img{
     .footer__container{
         grid-template-columns: repeat(3, 1fr);
     }
-
+    .footer__bg{
+        padding: 3rem 0 3.5rem;
+    }
+    .footer__links{
+        flex-direction: row;
+        column-gap: 2rem;
+    }
+    .footer__socials{
+        justify-self: flex-end;
+    }
+    .footer__copy {
+        margin-top: 4.5rem;
+    }
+ }
+ @media screen and (min-width: 1024px){
+    .container{
+        max-width: 955px;
+    }
+    .header,
+    .main,
+    .footer__container{
+        padding: 0;
+        
+    }
+    .home__blob{
+        width: 320px;
+    }
+    .home__social{
+        transform: translateX(-6rem);
+    }
+    .services__container{
+        grid-template-columns: repeat(3, 238px);
+    }
+    .portfolio__content{
+        column-gap: 5rem;
+    }
+    .swiper-portfolio-icon{
+        font-size: 3.5rem;
+    }
+    .swiper-button-prev{
+        left: -.4rem;
+    }
+    .swiper-button-next{
+        right: .4rem;
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets{
+        bottom: -4rem;
+    }
+    .contact__form{
+        width: 460px;
+    }
+    .contact__inputs{
+        grid-template-columns: repeat(2, 1fr);
+    }
  }
