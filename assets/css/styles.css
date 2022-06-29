@@ -405,7 +405,6 @@ img{
 .profilefoto{
     max-width: 15.5rem;
     border-radius: 10px;
-    
 }
 
 /* Habilidades */
@@ -469,22 +468,22 @@ img{
     width: 80%;
 }
 .skills__js{
-    width: 60%;
-}
-.skills__react{
     width: 70%;
 }
-.skills__php{
+.skills__react{
+    width: 65%;
+}
+.skills__express{
     width: 60%;
 }
 .skills__node{
-    width: 90%;
+    width: 65%;
 }
-.skills__java{
-    width: 70%;
+.skills__SQL{
+    width: 75%;
 }
 .skills__python{
-    width: 85%;
+    width: 60%;
 }
 
 .skills__close .skills__list{
@@ -1137,5 +1136,16 @@ img{
     }
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .project__container{
+        margin: 0;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+    }
+    .project__container > img{
+        max-width: 400px;
     }
  }
